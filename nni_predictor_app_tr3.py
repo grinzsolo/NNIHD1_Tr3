@@ -27,7 +27,7 @@ if os.path.exists(log_file):
 else:
     existing = pd.DataFrame(columns=[
         "Date", "Time", "User_Name", "Polymer_Grade",
-        "A_LC", "B_MFR_S205", "C_MFR_S206", "D_MFR_S402C",
+        "A_LC", "B_MFR_S205", "C_MFR_S411", "D_MFR_S402C",
         "Predicted_NNI", "Log_Timestamp"  # ✅ เพิ่ม column
     ])
 
