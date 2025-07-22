@@ -73,7 +73,7 @@ with st.form("predict_form"):
                 "A_LC": a,
                 "B_MFR_S205": b,
                 "C_MFR_S206": c,
-                "D_MFR_S402C": d,
+                "D_MFR_S411": d,
                 "Predicted_NNI": pred,
                 "Log_Timestamp": log_ts  # ✅ เพิ่ม timestamp column
             }
